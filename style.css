@@ -126,12 +126,12 @@ p{
 }
 @media (max-width: 1513px) {
     #wraper{
-        margin-left: 15%;
+        margin-left: 10%;
         float: none;
     }
     #wraper2{
         margin-right: 10%;
-        margin-left: 20%;
+        margin-left: 15%;
         float: none;
         width: 260px;
     }
@@ -139,7 +139,7 @@ p{
         margin-top: 60%;
     }
     .T{
-        font-size: 90px;
+        font-size: 900px;
     }
     .I{
         font-size: 55px;
