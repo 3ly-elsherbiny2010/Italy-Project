@@ -125,7 +125,6 @@ p{
     transition-duration: 1s;
 }
 @media (max-width: 1513px) {
-    
     #wraper{
         margin-left: 25%;
         float: none;
@@ -138,6 +137,12 @@ p{
     }
     #wraper2 #h{
         margin-top: 60%;
+    }
+    .T{
+        font-size: 65px;
+    }
+    .I{
+        font-size: 28px;
     }
 }   
 @media (min-width: 1815px){
