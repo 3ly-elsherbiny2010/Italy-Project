@@ -124,34 +124,17 @@ p{
     -moz-transition: ease-in-out;
     transition-duration: 1s;
 }
-@media (max-width: 1513px) {
-    #wraper{
-        margin-left: 10%;
-        float: none;
+@media (max-width: 768px) {
+    #wraper, #wraper2 {
+        width: 100%; /* Cards take the full width of the screen */
+        height: auto; /* Adjust height to content */
+        margin: 10px 0; /* Add some space between cards */
+        float: none; /* Disable floating to ensure stacking */
     }
-    #wraper2{
-        margin-right: 10%;
-        margin-left: 15%;
-        float: none;
-        width: 260px;
-    }
-    #wraper2 #h{
-        margin-top: 60%;
-    }
-    .T{
-        font-size: 77px;
-    }
-    .I{
-        font-size: 45px;
-    }
-}   
-@media (min-width: 1815px){
-    #wraper2 #h{
-        margin-top: 10%;
-        text-align: left ;
-        padding-left:15px;
-        font-family: bol;
-        color: white; 
-        opacity: 0;
+
+    #wraper img, #wraper2 img {
+        width: 100%; /* Ensure images fit the card width */
+        height: auto; /* Maintain aspect ratio */
     }
 }
+
